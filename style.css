@@ -378,10 +378,6 @@ body {
   .contact-content-con .right-contact .i-c-2 :last-child {
 	margin-left: 1.5rem;
   }
-  /* .contact-content-con .right-contact .submit-btn {
-	display: flex;
-	justify-content: flex-start;
-  } */
   .btn {
 	display: inline-block;
 	margin-bottom: 10%;
@@ -440,11 +436,15 @@ body {
   }
   #xinfo
   {
-	font-size: 20px;
+	font-size: 24px;
   }
   #mid
   {
 	margin-bottom: -8%;
+  }
+  #Linfo
+  {
+	font-size: 24px;
   }
   .copyright a {
 	color: #22cf91;
