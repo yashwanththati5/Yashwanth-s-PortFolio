@@ -665,7 +665,7 @@ body {
 		width: 40%;
 	}
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
 	:root {
 		--big-font: 2.4rem;
 		--medium-font: 1.2rem;
