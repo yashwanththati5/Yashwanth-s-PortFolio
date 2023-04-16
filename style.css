@@ -13,7 +13,7 @@
 	--main-color: #033a80;
 	--bg-color: #F5F5F5;
 	--text-color: #0f0c27;
-	--hover: hsl(260, 100%, 51%);
+	--hover: hsl(251, 100%, 51%);
 	--color-primary: #553c9a;
 	--color-secondary: #553c9a;
 	--color-white: crimson;
@@ -141,7 +141,8 @@ body {
 #th1
 {
 	width: 40%;
-	padding-left: 12px;
+	padding-left: -2vh;
+	padding-right: 40px;
 	border-collapse: collapse;
 }
 #th2
@@ -449,24 +450,7 @@ body {
   .copyright a {
 	color: #22cf91;
   }
-  @media only screen and (max-width: 1200px){
-	header {
-	  padding: 18px 4%;
-	}
- 
-	section {
-	  padding: 50px 4%;
-	}
-  }
- 
-  @media only screen and (max-width: 1200px){
-	:root {
-	  --big-font: 2.7rem;
-	  --medium-font: 1.4rem;
-	}
-  }
- 
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 700px){
 	:root {
 	  --big-font: 2.4rem;
 	  --medium-font: 1.2rem;
@@ -480,9 +464,51 @@ body {
 	  font-size: 40px;
 	  color: var(--text-color);
 	}
-	#q,#q2,#q3
+	#hin
 	{
-		font-size: 18px;
+		font-size: 30px;
+		width: 100%;
+		height: 100%;
+	}
+	#homeimg
+	{
+		width: 57%;
+		overflow: hidden;
+	}
+	#th2
+	{
+		line-height: 2rem;
+	}
+	#homeimg5
+	{
+		width: 50%;
+		height: 180%;
+	}
+	#time
+	{
+		display:contents;
+		padding: 1.7px;
+		margin-left: 200%;
+	}
+	#time1
+	{
+		letter-spacing: 1px;
+		display: contents;
+	}
+	#time2
+	{
+		display: contents;
+
+	}
+	#homeimg2
+	{
+		width: 50%;
+		height: 140%;
+	}
+	#pro
+	{
+		width: 1.6rem;
+		height: 100%;
 	}
 	header .navbar {
 	  position: absolute;
@@ -516,85 +542,241 @@ body {
 	.scroll-down {
 	  display: none;
 	}
-	#time
+	#cinfo
 	{
-		margin-left: 1%;
-		font-size: 9px;
+		font-size: 22px;
 	}
-	#time1
+	#info,#xinfo,#rinfo
 	{
-		margin-left: 1%;
-		font-size: 9px;
+		font-size: 22px;
 	}
-	#time2
+	#homeimg3
 	{
-		margin-left: 1%;
-		font-size: 9px;
+		width: 50%;
+		height: 100%;
+	}
+	#homeimg4
+	{
+		width: 50%;
+		height: 100%;
+	}
+	.c-btn
+	{
+		width: 92%;
+	}
+}
+@media screen and (max-width: 970px) {
+	:root {
+		--big-font: 2.4rem;
+		--medium-font: 1.2rem;
+	  }
+	  header {
+		padding: 11px 4%;
+	  }
+	  #menu-icon {
+		display: initial;
+		font-size: 40px;
+		color: var(--text-color);
+	  }
+	  header .navbar {
+		position: absolute;
+		top: -500px;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		background: var(--bg-color);
+		box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+		transition: 0.2s ease;
+		text-align: center;
+	  }
+	  .navbar.active {
+		top: 100%;
+	  }
+	  .navbar a {
+		padding: 1.5rem;
+		display: block;
+		background: var(--bg-color);
+	  }
+	  #darkmode {
+		  font-size: 30px;
+		  position: absolute;
+		  top: 1.4rem;
+		  right: 2rem;
+		  }
+	  .scroll-down {
+		display: none;
+	  }
+	  	#time
+		{
+			display: contents;
+		}
+		#time1
+		{
+			display: contents;
+		}
+		#time2
+		{
+			font-size: 23px;
+			display: contents;
+		}
+		#pro
+		{
+			width: 1.6rem;
+		}
+		.c-btn
+		{
+			width: 80%;
+		}
+  }
+  @media screen and (max-width: 1070px) {
+	.c-btn
+	{
+		width: 60%;
+	}
+	#pro
+	{
+		width: 1.6rem;
 	}
 	#cinfo
 	{
 		font-size: 16px;
 	}
-	#info,#xinfo
+	#xinfo
 	{
-		font-size: 16px;
+		font-size: 17px;
 	}
-	#name,#mail,#subject,#text1
+	#info
 	{
-		font-size: 12px;
+		font-size: 17px;
 	}
-	#pro
+	#Linfo
 	{
-		width: 2.8%;
-		height: 8%;
+		font-size: 20px;
 	}
+  }
+  @media screen and (max-width: 1432px) {
 	#homeimg
 	{
-		width: 36%;
-		height: 60%;
-	}
-	#homeimg5
-	{
-		width: 38%;
-	height: 60%;
-	}
-	#q1
-	{
-		font-size: 15px;
-	}
-	#q2
-	{
-		font-size: 14px;
+		width: 42%;
 	}
 	#homeimg2
 	{
-		width: 38%;
-		height: 60%;
+		width: 40%;
 	}
-	#homeimg3
-	{
-		width: 38%;
-		height: 60%;
-	}
-	#homeimg4
-	{
-		width: 38%;
-		height: 60%;
-	}
-	.navbar a {
-		font-size: 1.3rem;
-		overflow: hidden;
-	}
-	.btn1{
-		display: inline-block;
-		width: 30%;
-	}
-	#hin
-	{
-	   font-size: 22px;
-	}
-	.c-btn
-	{
-		width: 50%;
-	}
-}
+  }
+  @media screen and (max-width: 600px) {
+	:root {
+		--big-font: 2.4rem;
+		--medium-font: 1.2rem;
+	  }
+	  header {
+		padding: 11px 4%;
+	  }
+   
+	  #menu-icon {
+		display: initial;
+		font-size: 40px;
+		color: var(--text-color);
+	  }
+	  #hin
+	  {
+		  font-size: 30px;
+		  width: 100%;
+		  height: 100%;
+	  }
+	  #homeimg
+	  {
+		  width: 57%;
+		  overflow: hidden;
+	  }
+	  #th2
+	  {
+		  line-height: 2rem;
+	  }
+	  #homeimg5
+	  {
+		  width: 50%;
+		  height: 180%;
+	  }
+	  #time
+	  {
+		  display:contents;
+		  padding: 1.7px;
+		  margin-left: 200%;
+	  }
+	  #time1
+	  {
+		  letter-spacing: 1px;
+		  display: contents;
+	  }
+	  #time2
+	  {
+		  display: contents;
+  
+	  }
+	  #homeimg2
+	  {
+		  width: 40%;
+		  height: 140%;
+	  }
+	  #pro
+	  {
+		  width: 1.6rem;
+		  height: 100%;
+	  }
+	  header .navbar {
+		position: absolute;
+		top: -500px;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		background: var(--bg-color);
+		box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+		transition: 0.2s ease;
+		text-align: center;
+	  }
+   
+	  .navbar.active {
+		top: 100%;
+	  }
+	  
+	  .navbar a {
+		padding: 1.5rem;
+		display: block;
+		background: var(--bg-color);
+	  }
+   
+	  #darkmode {
+		  font-size: 30px;
+		  position: absolute;
+		  top: 1.4rem;
+		  right: 2rem;
+		  }
+	  .scroll-down {
+		display: none;
+	  }
+	  #cinfo
+	  {
+		  font-size: 22px;
+	  }
+	  #info,#xinfo,#rinfo
+	  {
+		  font-size: 22px;
+	  }
+	  #homeimg3
+	  {
+		  width: 50%;
+		  height: 100%;
+	  }
+	  #homeimg4
+	  {
+		  width: 50%;
+		  height: 100%;
+	  }
+	  .c-btn
+	  {
+		  width: 92%;
+	  }
+  }
