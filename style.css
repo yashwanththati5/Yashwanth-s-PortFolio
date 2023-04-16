@@ -780,3 +780,152 @@ body {
 		  width: 92%;
 	  }
   }
+ @media only screen and (max-width: 1200px){
+	header {
+	  padding: 18px 4%;
+	}
+ 
+	section {
+	  padding: 50px 4%;
+	}
+  }
+ 
+  @media only screen and (max-width: 1200px){
+	:root {
+	  --big-font: 2.7rem;
+	  --medium-font: 1.4rem;
+	}
+  }
+ 
+  @media only screen and (max-width: 1200px){
+	:root {
+	  --big-font: 2.4rem;
+	  --medium-font: 1.2rem;
+	}
+	header {
+	  padding: 11px 4%;
+	}
+ 
+	#menu-icon {
+	  display: initial;
+	  font-size: 40px;
+	  color: var(--text-color);
+	}
+	#q,#q2,#q3
+	{
+		font-size: 18px;
+	}
+	header .navbar {
+	  position: absolute;
+	  top: -500px;
+	  left: 0;
+	  right: 0;
+	  display: flex;
+	  flex-direction: column;
+	  background: var(--bg-color);
+	  box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+	  transition: 0.2s ease;
+	  text-align: center;
+	}
+ 
+	.navbar.active {
+	  top: 100%;
+	}
+	
+	.navbar a {
+	  padding: 1.5rem;
+	  display: block;
+	  background: var(--bg-color);
+	}
+ 
+	#darkmode {
+        font-size: 30px;
+        position: absolute;
+        top: 1.4rem;
+        right: 2rem;
+        }
+	.scroll-down {
+	  display: none;
+	}
+	#time
+	{
+		margin-left: 1%;
+		font-size: 9px;
+	}
+	#time1
+	{
+		margin-left: 1%;
+		font-size: 9px;
+	}
+	#time2
+	{
+		margin-left: 1%;
+		font-size: 9px;
+	}
+	#cinfo
+	{
+		font-size: 16px;
+	}
+	#info,#xinfo
+	{
+		font-size: 16px;
+	}
+	#name,#mail,#subject,#text1
+	{
+		font-size: 12px;
+	}
+	#pro
+	{
+		width: 2.8%;
+		height: 8%;
+	}
+	#homeimg
+	{
+		width: 36%;
+		height: 60%;
+	}
+	#homeimg5
+	{
+		width: 38%;
+	height: 60%;
+	}
+	#q1
+	{
+		font-size: 15px;
+	}
+	#q2
+	{
+		font-size: 14px;
+	}
+	#homeimg2
+	{
+		width: 38%;
+		height: 60%;
+	}
+	#homeimg3
+	{
+		width: 38%;
+		height: 60%;
+	}
+	#homeimg4
+	{
+		width: 38%;
+		height: 60%;
+	}
+	.navbar a {
+		font-size: 1.3rem;
+		overflow: hidden;
+	}
+	.btn1{
+		display: inline-block;
+		width: 30%;
+	}
+	#hin
+	{
+	   font-size: 22px;
+	}
+	.c-btn
+	{
+		width: 50%;
+	}
+}
