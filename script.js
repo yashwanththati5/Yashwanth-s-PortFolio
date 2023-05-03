@@ -32,5 +32,7 @@ window.addEventListener("blur" , () => {
 window.addEventListener("focus" , () => {
   document.title = doctitle;
 })
-
+let d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year;
                                     
