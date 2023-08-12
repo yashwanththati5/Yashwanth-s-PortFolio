@@ -388,11 +388,12 @@ body {
   }
   .btn {
 	display: inline-block;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 	background: var(--main-color);
 	color: #fff;
 	padding: 0.7rem 1.3rem;
 	border-radius: 0.5rem;
+	transform: translate(-25px , 0px);
   }
   .btn:hover {
 	background: var(--hover);
@@ -826,16 +827,5 @@ body {
 	input::placeholder
 	{
 		font-size: 24px;
-	}
-	.btn
-	{
-		margin-top: 100px;
-		transform: translate(0px , 100px);
-	}
-}
-@media screen and (min-width: 1250px){
-	.btn
-	{
-		transform: translate(6px , 0px);
 	}
 }
