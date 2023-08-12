@@ -833,9 +833,9 @@ body {
 		transform: translate(0px , 100px);
 	}
 }
-@media screen and (max-width: 1250px) and (max-width: 1700px){
+@media screen and (min-width: 1250px){
 	.btn
 	{
-		transform: translate(-100px , 20px);
+		transform: translate(6px , 0px);
 	}
 }
