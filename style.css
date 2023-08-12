@@ -484,6 +484,7 @@ body {
 		width: 40%;
 	}
   }
+  
   @media only screen and (max-width: 1200px){
 	 :root {
 	  --big-font: 2.4rem;
@@ -566,7 +567,7 @@ body {
 	}
 	#pro
 	{
-		width: 2.8%;
+		width: 2.7%;
 		height: 8%;
 	}
 	#homeimg
@@ -619,6 +620,7 @@ body {
 		width: 50%;
 	} 
 }
+
 @media screen and (min-width: 400px) and (max-width: 1300px)
 {
 	header
@@ -773,11 +775,8 @@ body {
 	.scroll-down {
 		display: none;
 	  }
-	  /* #homeimg , #homeimg1 , #homeimg2 , #homeimg3 , #homeimg4 , #homeimg5
-	  {
-		width: 60%;
-	  } */
 }
+
 @media screen and (min-width: 300px) and (max-width: 400px){
 	#hin
 	{
@@ -834,7 +833,7 @@ body {
 		transform: translate(0px , 100px);
 	}
 }
-@media screen and (min-width: 1250px){
+@media screen and (max-width: 1250px) and (max-width: 1700px){
 	.btn
 	{
 		transform: translate(-100px , 20px);
