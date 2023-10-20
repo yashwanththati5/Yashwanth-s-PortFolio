@@ -500,7 +500,6 @@ body {
 	  } 
 	#menu-icon {
 	  display: initial;
-	  font-size: 40px;
 	  color: var(--text-color);
 	}
 	#q,#q2,#q3
@@ -644,16 +643,18 @@ body {
   }
   	.navbar
 	{
-		height: 500%;
+		height: 300%;
 		flex-wrap: wrap;
+		flex-shrink: initial;
 	}
 	.navbar a
 	{
-		font-size: 28px;
+		font-size: 23px;
 	}
 	#darkmode
 	{
 		font-size: 30px;
+		transform: translate(12px , -4px);
 	}
 	#menu-icon
 	{
