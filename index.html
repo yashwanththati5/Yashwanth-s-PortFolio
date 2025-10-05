@@ -1,327 +1,858 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/portfolio.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <title>Port Folio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Yashwanth Thati - Software Engineer</title>
 </head>
 <body>
-<header>
-    <a href="#home" class="logo">Welcome <span> There!</span></a>
-    
-    <div class="bx bx-menu" id="menu-icon"></div>
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about1">About</a></li>
-        <li><a href="#qualification">Qualification</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#profiles">Profiles</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <div class="bx bx-moon" id="darkmode" style=""></div>
-    </ul>
-    <!-- home section -->
-</header>
-    <section>
-    <main>
-    <section id="home">
-    <div id = "hinfo">
-        <h1 style="text-align: center;" class = "name1">Hi,</h1>
-        <h1 style="text-align: center;" class = "name1">I'm <span class = "name">Yashwanth Thati</span></h1> 
-        <h1 style="text-align: center;"> <span id = "hin">I am the person with attitude of learning new things, Enthusiastic , 
-            Fast Learner.</span> </h1> 
-        <h4 style="text-align: center;">Motive: Having a Lot to Learn....</h4>
-        <br>
-        <img src="img/home.gif" alt="" id = "homeimg"> </div>
-       <div class="btn" id="rinfo"><i class="fa fa-download"><a href="img/Yashwanth_Resume.pdf" target="_blank" id = "rinfo"> Resume</a></i></div> 
-    </section>
-    </section>
-    <div id = "mid"></div>
-    <!-- home section Ennd -->
-    <hr>
-    <!-- about section start -->
-    <section id="about1">
-        <h1 style="text-align: center;" id = "h11">About <span id = "titles">Me !</span></h1> 
-        <br>
-    <table>
-        <tr>
-           <th id = "th1"> <img src="img/img.jpg" alt="img" id = "dp"> </th>
-            <th id = "th2">
-            <p id = "pabout">
-            I'm <span class = "name">Yashwanth Thati </span> Pursuing Computer Science Engineering in CMR Technical Campus, Very interested in problem solving and algorithms. Highly Talented in Creative and Logical Thinking.
-            Currently Working on Development. 
-            </p>
-        </th>
-</tr>
-    </table>
-    <br> <br>
-    <img src="img/home1.gif" alt="" id = "homeimg5">
-    </section>
-    <!-- about section end -->
-    <hr>
-    <!-- qualification section start -->
-    <section id = "qualification">
-            <h1 style="text-align: center;" id = "h11">Qualification <i id = "titles"class="fa fa-graduation-cap"></i></h1>
-            <br>
-            <ul>
-            <li>
-            <div>
-            <p id = ""><a href="https://cmrtc.ac.in/" target="_blank"><b id="q">CMR TECHNICAL CAMPUS</b></a><span id="time"> MAY 2020 - PRESENT</span> </p>
-            <p>Computer Science and Engineering with (GPA of<span id = "titles"> 8.5*</span>)</p>
-        </div>      
-    </li>
-            <br>
-            <li>
-            <div>
-            <p id = ""><a href="https://srichaitanya.net/" target="_blank"><b id="q1">SRI CHAITANYA JR COLLEGE</b></a><span id="time1"> MAY 2018 - MAY 2020</span></p>
-            <p>MPC with (GPA of <span id = "titles"> 9.0</span>)</p>
-        </div>
-    </li>
-            <br>
-            <li>
-            <div>
-            <p id = ""><a href="https://www.narayanagroup.com/" target="_blank"><b id="q2">NARAYANA CONCEPT SCHOOL</b></a><span id = "time2"> MAY 2017 - MAY 2018</span></p>
-            <p>State Board with (GPA of <span id = "titles"> 9.7</span>)</p>
-        </div>
-    </li>
-    </ul>
-            <br>
-            <img src="img/quali.gif" alt="" id = "homeimg2">
-    </section>
-    <br>
-    <!-- qulaification section end -->
-    <hr>
-    <!-- skill section start  -->
-    <section id = "skills">
-        <div class="about-stats">
-            <h1 style="text-align: center;" id="h11">My <span id = "titles">Skills </span><i class="fa fa-laptop"></i></h1>
-            <br>
-            <div class="progress-bars">
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">CPP</p>
-                    <div class="progress-con">
-                        <p class="prog-text">90%</p>
-                        <div class="progress">
-                            <span class="html"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">DS and Algo </p>
-                    <div class="progress-con">
-                        <p class="prog-text">85%</p>
-                        <div class="progress">
-                            <span class="css"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">MY SQL</p>
-                    <div class="progress-con">
-                        <p class="prog-text">80%</p>
-                        <div class="progress">
-                            <span class="js"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">Java</p>
-                    <div class="progress-con">
-                        <p class="prog-text">80%</p>
-                        <div class="progress">
-                            <span class="react"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">Web Development</p>
-                    <div class="progress-con">
-                        <p class="prog-text">75%</p>
-                        <div class="progress">
-                            <span class="node"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <p class="prog-title" id="p">Python</p>
-                    <div class="progress-con">
-                        <p class="prog-text">80%</p>
-                        <div class="progress">
-                            <span class="python"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/skiils.gif" alt="" id="homeimg2">
-    </section>
-    <!-- skill section end  -->
-    <hr>
-        <!-- profiles section start -->
-        <section id = "profiles">
-            <h1 style="text-align: center;">Coding <span id = "titles">Profiles </span><i class = "fa fa-code"></i></h1>
-            <br>
-                <ul>
-                    <li><p id="p">I solved <span id="titles">1500+ </span> DS and Algo Questions across platforms.</p></li>
-                    <br>
-                    <li>Solved <span id="titles">600+</span>  problems in Leet Code.</li>
-                </ul>
-                <br>
-                <ul>
-                <li><div>
-                <a href="https://leetcode.com/Yashwanth_Yash_/" target="_blank" id = "profilelogos"><img src="img/leetcodelogo.png" alt="" id = "pro"> <span class= "links"> Leet <span id = "titles">Code</span></span></a>
-                </div></li> <br>
-                <li><div>
-                <a href="https://codeforces.com/profile/207r1a05p2"target="_blank" id = "profilelogos"><img src="img/codeforece.png" alt="" id="pro"> <span class="links"> Code <span id = "titles">Forces</span></span></a>
-                </div></li> <br>
-                <li><div>
-                <a href="https://www.codechef.com/users/yashwanth106"target="_blank" id = "profilelogos"><img src="img/codechef.jpeg" alt="" id="pro"> <span class="links"> Code <span id = "titles">Chef</span></span></a>
-                </div></li> <br>
-                <li><div>
-                <a href="https://auth.geeksforgeeks.org/user/yashwanththati5/"target="_blank" id = "profilelogos"><img src="img/gfg.png" alt="" id = "pro"> <span class="links">Geeks <span id="titles">For </span> Geeks</span> </a>
-                </div></li>
-            </ul>
-            <img src="img/profiles.jpeg" alt="" id = "homeimg3">
-        </section>
-    <!-- profile section end  -->
-    <hr>
-    <!-- projects section start  -->
-    <section id = "projects">
-    <div>
-        <h1 style="text-align: center;" id="h11">Projects  <i id = "titles"class="fa fa-terminal"></i></h1>
-        <br>
-        <h2>Student Management System</h2>
-        <ul id = "pinfo">
-            <li>An interface which will given an option to <span id="titles">ADD , UPDATE , DELETE</span> records of students.</li>
-            <li>This is the <span id="titles">Backend tool </span> for managing the student details.</li>
-            <li>Technologies Used: <span id="titles">HTML , CSS , JavaScript , PHP</span>.</li>
-            <li><a href="https://github.com/yashwanththati5/Student-Management-System" id = "p1" target="_blank" style="text-decoration: underline;">View Project.</a></li>
-        </ul>
-        <br>
-        <h2>Port Folio</h2>
-            <ul id = "pinfo">
-                <li>An interface which describe my <span id="titles">Skills</span> and <span id = "titles">Achievements</span>.</li>
-                <li>Technologies Used: <span id="titles">HTML , CSS , JavaScript</span>.</li>
-                <li><a href="https://github.com/yashwanththati5/Yashwanth-s-PortFolio" id = "p1" target="_blank" style="text-decoration: underline;">View Project.</a></li>
-            </ul>
-        <br>
-        <h2>LeetCode Visualizer</h2>
-        <ul id = "pinfo">
-            <li>An interface which take a <span id = "titles">LeetCode Id </span> and fetch the User Details.</li>
-            <li>It will fetch the User details like <span id = "titles">(User Problems Count / Contest Attended/Rating)</span>.</li>
-            <li>Technologies Used: <span id = "titles">HTML , CSS , Python(BeautifulSoup, Flask)</span>.</li>
-            <li><a href="https://github.com/yashwanththati5/LeetCode-Visualizer" id = "p1" target="_blank" style="text-decoration: underline;">View Project.</a></li>
-        </ul>
-        <br>
-        <h2>Code Crawler</h2>
-        <ul id = "pinfo">
-            <li>This is a Java Automation which will fetch the user data from famous websites like : 
-                <span id = "titles">LeetCode , Code Chef , Code Forces, Geeks For Geeks</span>.</li>
-            <li>It takes an <span id="titles">Input file (.csv)</span> in which it contains user id's of different plaform's and returns <span id = "titles">Output file(.csv)</span> file with fetched user data.</li>
-            <li>Technologies Used: <span id = "titles">Java , Selinium , OpenCV</span>.</li>
-            <li><a href="https://github.com/yashwanththati5/Code-Crawler" id = "p1" target="_blank" style="text-decoration: underline;">View Project.</a></li>
-        </ul>
-        <br>
-        <img src="img/projects.gif" alt="" id = "homeimg4">
+<!-- Loading Animation -->
+<div class="loader-wrapper">
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading...</div>
     </div>
-    </section>
-    <!-- projects section end  -->
+</div>
 
-    <hr>
-    <!-- contact section start  -->
-    <section class="container contact" id="contact">
-        <div class="contact-container">
-            <div class="main-title">
+<!-- Header -->
+<header class="header">
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-text">Yashwanth</span>
+            <span class="logo-accent">.</span>
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#profiles" class="nav-link">Profiles</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="bx bx-moon"></i>
+        </button>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <div class="hero-greeting">
+                    <span class="wave">👋</span>
+                    <span>Hi, I'm</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="name">Yashwanth Thati</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role active">Software Engineer</span>
+                    <span class="role">Java Developer</span>
+                    <span class="role">Problem Solver</span>
+                </div>
+                <p class="hero-subtitle">
+                    Software Engineer at <span class="highlight">Siemens EDA</span> with 2+ years of experience
+                    specializing in Java development, distributed systems, and enterprise applications.
+                    Passionate about solving complex problems and building scalable solutions.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">45+</span>
+                        <span class="stat-label">Bugs Resolved</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1500+</span>
+                        <span class="stat-label">DSA Problems</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="img/Yashwanth_Resume.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
             </div>
-            <div class="contact-content-con">
-                <div class="left-contact">
-                    <h4 id="h11">Contact me here</h4>
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span class = "location">Location</span>
-                            </div>
-                            <p>
-                               <span id="my-location">: Hyderabad, India</span> 
-                            </p>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="img/home.gif" alt="Software Engineer Animation" class="hero-gif">
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">☕</div>
+                        <div class="floating-icon" style="--delay: 1s">🚀</div>
+                        <div class="floating-icon" style="--delay: 2s">💻</div>
+                        <div class="floating-icon" style="--delay: 3s">⚡</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <p class="section-subtitle">Professional Software Engineer with a passion for innovation</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <div class="image-wrapper">
+                    <img src="img/img.jpg" alt="Yashwanth Thati" class="profile-img">
+                    <div class="image-overlay"></div>
+                    <div class="experience-badge">
+                        <span>2+</span>
+                        <small>Years</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text" data-aos="fade-left">
+                <h3>Software Engineer at Siemens EDA</h3>
+                <p>
+                    I'm a dedicated Software Engineer with 2+ years of professional experience at Siemens EDA, specializing in Java development and distributed systems.
+                    My expertise lies in enterprise application development, legacy system modernization, and solving complex technical challenges.
+                </p>
+                <p>
+                    I'm passionate about continuous learning, writing clean and efficient code, and turning complex problems into elegant solutions.
+                    Always excited to explore new technologies and create meaningful impact through innovative development.
+                </p>
+
+                <div class="achievements-grid">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code"></i>
                         </div>
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fas fa-envelope"></i>
-                                <span id = "email">Email</span>
-                            </div>
-                            <p>
-                                <span id = "my-email">: yashwanthati5@gmail.com</span>
-                            </p>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fas fa-user-graduate"></i>
-                                <span id="edu">Education</span>
-                            </div>
-                            <p>
-                                <span id = "my-edu">:Engineering , 4rd year</span>
-                            </p>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fas fa-phone-square" aria-hidden="true"></i>
-                                <span id = "num">Mobile Number</span>
-                            </div>
-                            <p>
-                                <span id = "my-num">: +91 8522037965</span>
-                            </p>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fas fa-globe-africa"></i>
-                                <span id = "lan">Languages Know</span>
-                            </div>
-                            <p>
-                                <span id = "my-lan">: Telugu, English, Hindi</span>
-                            </p>
+                        <div class="achievement-content">
+                            <h4>5+ Features</h4>
+                            <p>Major features delivered</p>
                         </div>
                     </div>
-                    <div class="contact-icons">
-                        <div class="contact-icon">
-                            <a href="https://github.com/yashwanththati5" class="fab fa-github" style="font-size: 24px; padding: ; color: black;" target="_blank"></a>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>45+ Fixes</h4>
+                            <p>Bugs & support requests resolved</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>1500+ Problems</h4>
+                            <p>DSA problems solved</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>8.48 CGPA</h4>
+                            <p>Academic excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Professional <span class="accent">Experience</span></h2>
+            <p class="section-subtitle">My journey as a Software Engineer at Siemens EDA</p>
+        </div>
+
+        <div class="experience-timeline">
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-date">June 2024 - Present</div>
+                        <div class="company-logo">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div>
+                    <h3>Software Engineer</h3>
+                    <h4>Siemens EDA, Hyderabad</h4>
+                    <div class="experience-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>Led critical Hibernate framework upgrade from 5.x to 6.6.x</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Architected major styling framework feature for Z-index ordering</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Resolved 30+ complex Support Requests in distributed architecture</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Delivered critical bug fixes maintaining backward compatibility</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Hibernate</span>
+                        <span class="tech-tag">CORBA</span>
+                        <span class="tech-tag">gRPC</span>
+                        <span class="tech-tag">JPA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-date">June 2023 - May 2024</div>
+                        <div class="company-logo">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                    <h3>Software Engineer Intern</h3>
+                    <h4>Siemens EDA, Hyderabad</h4>
+                    <div class="experience-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Developed and delivered 5 major features from scratch</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-download"></i>
+                            <span>Built export functionality and user login history system</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Diagnosed and resolved 15+ bugs using Agile methodologies</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-star"></i>
+                            <span>Promoted to full-time role based on outstanding performance</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">CORBA</span>
+                        <span class="tech-tag">gRPC</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <div class="company-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <h3>Computer Science Engineering</h3>
+                    <h4>CMR Technical Campus</h4>
+                    <div class="experience-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-medal"></i>
+                            <span>Graduated with 8.48 CGPA</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Solved 1500+ competitive programming problems</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Built multiple full-stack projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+            <p class="section-subtitle">Technologies and tools I work with professionally</p>
+        </div>
+
+        <div class="skills-categories">
+            <!-- Programming Languages -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h4>Java</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-cuttlefish"></i>
+                        </div>
+                        <h4>C/C++</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4>Python</h4>
+                        <div class="skill-level">Intermediate</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>SQL</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frameworks & Technologies -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="fas fa-cogs"></i> Frameworks & Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Spring Boot</h4>
+                        <div class="skill-level">Intermediate</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>Hibernate</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>gRPC</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h4>ReactJS</h4>
+                        <div class="skill-level">Intermediate</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h4>Git</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h4>Maven</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4>Jenkins</h4>
+                        <div class="skill-level">Intermediate</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <h4>JUnit</h4>
+                        <div class="skill-level">Advanced</div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Profiles Section -->
+<section id="profiles" class="profiles">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Coding <span class="accent">Profiles</span></h2>
+            <p class="section-subtitle">My competitive programming achievements</p>
+        </div>
+
+        <div class="achievements" data-aos="fade-up">
+            <div class="achievement-card">
+                <div class="achievement-number">1500+</div>
+                <div class="achievement-label">Total Problems Solved</div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-number">600+</div>
+                <div class="achievement-label">LeetCode Problems</div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-number">4+</div>
+                <div class="achievement-label">Active Platforms</div>
+            </div>
+        </div>
+
+        <div class="profiles-grid">
+            <a href="https://leetcode.com/Yashwanth_Yash_/" target="_blank" class="profile-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="profile-header">
+                    <div class="profile-icon">
+                        <img src="img/leetcodelogo.png" alt="LeetCode">
+                    </div>
+                    <div class="profile-stats">
+                        <span class="stat-number">600+</span>
+                        <span class="stat-label">Problems</span>
+                    </div>
+                </div>
+                <h3>LeetCode</h3>
+                <p>Algorithm & Data Structure Problems</p>
+                <div class="profile-footer">
+                    <span class="view-profile">View Profile</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+            </a>
+
+            <a href="https://codeforces.com/profile/207r1a05p2" target="_blank" class="profile-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="profile-header">
+                    <div class="profile-icon">
+                        <img src="img/codeforece.png" alt="CodeForces">
+                    </div>
+                    <div class="profile-stats">
+                        <span class="stat-number">Active</span>
+                        <span class="stat-label">Contests</span>
+                    </div>
+                </div>
+                <h3>CodeForces</h3>
+                <p>Competitive Programming Contests</p>
+                <div class="profile-footer">
+                    <span class="view-profile">View Profile</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+            </a>
+
+            <a href="https://www.codechef.com/users/yashwanth106" target="_blank" class="profile-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="profile-header">
+                    <div class="profile-icon">
+                        <img src="img/codechef.jpeg" alt="CodeChef">
+                    </div>
+                    <div class="profile-stats">
+                        <span class="stat-number">Regular</span>
+                        <span class="stat-label">Participant</span>
+                    </div>
+                </div>
+                <h3>CodeChef</h3>
+                <p>Monthly Programming Challenges</p>
+                <div class="profile-footer">
+                    <span class="view-profile">View Profile</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+            </a>
+
+            <a href="https://auth.geeksforgeeks.org/user/yashwanththati5/" target="_blank" class="profile-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="profile-header">
+                    <div class="profile-icon">
+                        <img src="img/gfg.png" alt="GeeksforGeeks">
+                    </div>
+                    <div class="profile-stats">
+                        <span class="stat-number">DSA</span>
+                        <span class="stat-label">Focus</span>
+                    </div>
+                </div>
+                <h3>GeeksforGeeks</h3>
+                <p>Data Structures & Algorithms</p>
+                <div class="profile-footer">
+                    <span class="view-profile">View Profile</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            <p class="section-subtitle">Some of my notable work and personal projects</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Student Management System -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image student-mgmt-icon">
+                    <div class="project-icon-container">
+                        <div class="main-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fas fa-database"></i>
+                            <i class="fas fa-users"></i>
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/yashwanththati5/Student-Management-System" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/yashwanth-thati-580349149/" target="_blank" style="font-size: 24px; color: rgb(10, 102, 194); padding: ;" class="fab fa-linkedin"></a>
-                        </a>
-                    </div>
+                        </div>
                     </div>
                 </div>
-                <div class="right-contact">
-                    <form action="https://formspree.io/f/xayznryj" method = "post" class="contact-form" target="">
-                        <div class="input-control i-c-2">
-                            <input type="text" required placeholder="YOUR NAME" id = "name" name = "Name">
-                            <input type="email" required placeholder="YOUR EMAIL" id = "mail" name = "Mail">
-                        </div>
-                        <div class="input-control">
-                            <input type="text" required placeholder="ENTER SUBJECT" id = "subject" name = "Subject">
-                        </div>
-                        <div class="input-control">
-                            <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..." id = "text1" name = "Message"></textarea>
-                        </div>
-                        <div class="submit-btn">
-                            <button class = "c-btn" id = "a" name="_next" value = "www.google.in" onclick="">Send</button>
-                            <!-- <input type="hidden" name="_next" value="//site.io/thanks.html"/> -->
-                    </form>
+                <div class="project-content">
+                    <div class="project-category">Full Stack</div>
+                    <h3>Student Management System</h3>
+                    <p>A comprehensive backend tool for managing student records with CRUD operations, built with modern web technologies.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> CRUD Operations</span>
+                        <span><i class="fas fa-check"></i> Responsive Design</span>
+                        <span><i class="fas fa-check"></i> Data Validation</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                    </div>
                 </div>
             </div>
-    </section>
-    <!-- conteact section end  -->
-</main>
-<!-- footer start  -->
-<footer>
-    <div class="copyright">
-          <p id = "year" style="display: inline;"></p> © PortFolio | All Right Reserved.
+            <!-- Portfolio Website -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-image portfolio-icon">
+                    <div class="project-icon-container">
+                        <div class="main-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fas fa-palette"></i>
+                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/yashwanththati5/Yashwanth-s-PortFolio" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Web Development</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, responsive portfolio website showcasing my professional experience, skills, and projects with smooth animations.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Responsive Design</span>
+                        <span><i class="fas fa-check"></i> Smooth Animations</span>
+                        <span><i class="fas fa-check"></i> Dark/Light Theme</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">AOS</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- LeetCode Visualizer -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image leetcode-icon">
+                    <div class="project-icon-container">
+                        <div class="main-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fas fa-chart-line"></i>
+                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/yashwanththati5/LeetCode-Visualizer" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Web Scraping</div>
+                    <h3>LeetCode Visualizer</h3>
+                    <p>A Python-based web scraping tool that fetches and visualizes LeetCode user statistics and problem-solving data.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Data Visualization</span>
+                        <span><i class="fas fa-check"></i> Real-time Fetching</span>
+                        <span><i class="fas fa-check"></i> User Analytics</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Crawler -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image code-crawler-icon">
+                    <div class="project-icon-container">
+                        <div class="main-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-download"></i>
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/yashwanththati5/Code-Crawler" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Automation</div>
+                    <h3>Code Crawler</h3>
+                    <p>Java automation tool that fetches user data from multiple competitive programming platforms using Selenium and OpenCV.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Multi-platform Support</span>
+                        <span><i class="fas fa-check"></i> Batch Processing</span>
+                        <span><i class="fas fa-check"></i> CSV Export</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">CSV</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+            <p class="section-subtitle">Ready to discuss opportunities and collaborations</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-intro">
+                    <h3>Get in touch</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and software development.</p>
+                </div>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>yashwanththati5@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+91 85XXXXXX65</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Current Role</h4>
+                            <p>Software Engineer at Siemens EDA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/yashwanththati5" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yashwanth-thati-580349149/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/xayznryj" method="post" class="contact-form" data-aos="fade-left">
+                <div class="form-header">
+                    <h3>Send me a message</h3>
+                    <p>I'll get back to you as soon as possible</p>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p>&copy; <span id="year"></span> Yashwanth Thati. All rights reserved.</p>
+                <p>Software Engineer passionate about creating innovative solutions</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </div>
 </footer>
-<!-- footer end -->
-</body>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
+</body>
 </html>
