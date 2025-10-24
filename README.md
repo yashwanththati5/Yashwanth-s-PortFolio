@@ -4,8 +4,9 @@
 <li><b>This is how it look like.</b></li>
   <h2>Home Page </h2>
   
-  <img width="1440" alt="Screenshot 2023-02-25 at 9 02 22 PM" src="https://user-images.githubusercontent.com/58801238/221365769-da0b7b26-9fdd-4edd-b745-2b9f4bb45e05.png">
-  <br> <br>
+ <img width="1440" height="812" alt="Screenshot 2025-10-24 at 7 34 21 PM" src="https://github.com/user-attachments/assets/bc9941df-2220-4488-bfa9-7fabbdf2aa29" />
+
+  <br>
 <li>Live Link: <a href = "https://tinyurl.com/yashwanth-website" target = "_blank"><b>Visit Link</b></a></li>
 
 </ul>
